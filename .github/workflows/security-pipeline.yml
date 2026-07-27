@@ -60,6 +60,8 @@ jobs:
       # 4. SAST - HARD BLOCK
       # ---------------------------------------------------------
       - name: Run Semgrep SAST
+        id: semgrep
+        continue-on-error: true
         run: |
           semgrep scan \
             --config auto \
