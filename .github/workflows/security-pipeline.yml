@@ -147,10 +147,7 @@ jobs:
       # 10. Build and push only after security gates pass
       # ---------------------------------------------------------
       - name: Build and push image to GHCR
-        
-        
         id: build
-        
         continue-on-error: true
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: docker/build-push-action@v6
