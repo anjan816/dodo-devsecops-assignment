@@ -51,7 +51,7 @@ jobs:
     
       - name: Run Semgrep SAST
         run: |
-          semgrep scan --config auto --error ledger-api/
+          semgrep scan --config auto --error app/
       
       - name: Trivy filesystem scan
         uses: aquasecurity/trivy-action@master
