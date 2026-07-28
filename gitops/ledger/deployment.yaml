@@ -32,7 +32,7 @@ spec:
       containers:
         - name: ledger-api
 
-          image: ghcr.io/anjan816/ledger-api:$SHA
+          image: ghcr.io/anjan816/ledger-api@sha256:ee172cc1e7f8cbd5c3a6b9159d893af08ea58494
           imagePullPolicy: IfNotPresent
 
           securityContext:
