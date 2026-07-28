@@ -240,8 +240,8 @@ These controls provide the foundation for implementing advanced service mesh sec
 </p>
 
 
-<a href="./Users/anjan/Desktop/111.png">
-    <img src="./Users/anjan/Desktop/111.png"
+<a href="./Users/anjan/Desktop/assesment/dodo-devsecops-assignment/architecture/111.png">
+    <img src="./Users/anjan/Desktop/assesment/dodo-devsecops-assignment/architecture/111.png"
          alt="Istio Installed"
          width="800">
 </a>
