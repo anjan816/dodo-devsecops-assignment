@@ -74,7 +74,7 @@ Argo CD
 
 ## Limitations
 
-## Future Improvements
+
 
 
                   Developer
