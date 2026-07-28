@@ -1,0 +1,21 @@
+apiVersion: security.istio.io/v1
+kind: AuthorizationPolicy
+
+metadata:
+  name: allow-neighbour-to-ledger
+  namespace: payments
+
+spec:
+
+  selector:
+    matchLabels:
+      app: ledger-api
+
+  action: ALLOW
+
+  rules:
+
+    - from:
+        - source:
+            serviceAccounts:
+              - payments/neighbour-api
