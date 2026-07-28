@@ -138,18 +138,3 @@ Combined with Kubernetes Network Policies, the solution provides a strong Zero T
 
 
                     Istio Service Mesh
-┌─────────────────────────────────────────────────┐
-│                                                 │
-│   neighbour-api              ledger-api         │
-│                                                  │
-│   ┌──────────────┐          ┌──────────────┐    │
-│   │ Application  │          │ Application  │    │
-│   ├──────────────┤   mTLS   ├──────────────┤    │
-│   │ Envoy Proxy  │ ───────► │ Envoy Proxy  │    │
-│   └──────────────┘          └──────────────┘    │
-│         │                         ▲              │
-│         │ SA identity             │              │
-│         └─────────────────────────┘              │
-│                                                 │
-│       AuthorizationPolicy + NetworkPolicy       │
-└─────────────────────────────────────────────────┘

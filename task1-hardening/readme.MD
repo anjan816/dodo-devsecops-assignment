@@ -238,3 +238,10 @@ Security best practices including non-root execution, encrypted secrets, dedicat
 and secure workload configuration significantly improved the overall security posture while maintaining application functionality.
 These controls provide the foundation for implementing advanced service mesh security and GitOps workflows in the subsequent tasks.
 </p>
+
+
+<a href="./Users/anjan/Desktop/111.png">
+    <img src="./Users/anjan/Desktop/111.png"
+         alt="Istio Installed"
+         width="800">
+</a>
