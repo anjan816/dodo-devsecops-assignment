@@ -24,33 +24,7 @@ GitOps deployment, service mesh security, and reconnaissance techniques.
 
 <hr>
 
-<h2>📁 Repository Structure</h2>
 
-<pre>
-.
-├── task1-hardening/
-│   ├── secure/
-│   ├── insecure/
-│   ├── evidence/
-│   └── THREAT-MODEL.md
-│
-├── task2-secure-cicd/
-│   ├── github-actions/
-│   ├── gitops/
-│   └── evidence/
-│
-├── task3-istio/
-│   ├── policies/
-│   ├── test-clients/
-│   └── evidence/
-│
-├── task4-recon/
-│   ├── reports/
-│   ├── screenshots/
-│   └── evidence/
-│
-└── README.md
-</pre>
 
 <hr>
 
