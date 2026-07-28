@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: neighbour-config
+  namespace: payments
+data:
+  APP_NAME: neighbour-api
